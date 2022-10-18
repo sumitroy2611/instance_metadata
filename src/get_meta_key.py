@@ -1,5 +1,5 @@
 import json
-from src.return_metadata import return_metadata
+from return_metadata import *
 import logging
 
 logger = logging.getLogger()
@@ -29,4 +29,4 @@ def search(search_key):
 # ========================================================================================================
 if __name__ == '__main__':
     key = input("Please enter the meta data key to be searched:\n")
-    logging.info(search(key))
+    print("%s:%s" %(key,search(key)))
