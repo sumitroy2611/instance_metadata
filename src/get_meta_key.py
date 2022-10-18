@@ -29,4 +29,4 @@ def search(search_key):
 # ========================================================================================================
 if __name__ == '__main__':
     key = input("Please enter the meta data key to be searched:\n")
-    print("%s:%s" %(key,search(key)))
+    print(key,search(key))
