@@ -16,7 +16,7 @@ class Testing(unittest.TestCase):
         result = search(str(search_object))
         self.assertIn(expected_result,result)
 
-        print("Start field is %s and result is %s\n" %(search_object,expected_result))
+        print("Start field is %s and result is %s\n" %(search_object,result))
 
 if __name__ == '__main__':
         # begin the unittest.main()
